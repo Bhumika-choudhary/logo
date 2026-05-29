@@ -11,7 +11,7 @@ function closePopup() {
 // SEND MAIL
 function sendMail(type) {
 
-    const email = "design@phrlife.com";
+    const email = "design@phirlife.com";
     const subject = "Hello Museb Khan";
     const body = "Hi Museb,";
 
