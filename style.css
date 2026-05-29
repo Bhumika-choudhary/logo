@@ -146,15 +146,18 @@ body {
     height: 24px;
 }
 
-.detail-text {
+/* .detail-text {
     width: 100%;
-}
+} */
 
-.detail-text span {
+.detail-text,
+.detail-text-website span {
     display: block;
+
     font-size: 12px;
     color: #777;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .detail-text a,
