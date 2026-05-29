@@ -118,6 +118,11 @@ body {
 .details-section {
     padding: 0 18px 24px;
 }
+/* .details-section a {
+    font-size: 16px;
+    font-weight: 700;
+} */
+
 
 .detail-card {
     display: flex;
@@ -157,7 +162,8 @@ body {
 .detail-text p {
     display: block;
     color: #111;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 700;
     margin-bottom: 8px;
     text-decoration: none;
     word-break: break-word;
