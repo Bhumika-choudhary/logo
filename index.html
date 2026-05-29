@@ -1,190 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Digital Visiting Card</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Visiting Card</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="card-container">
+    <div class="card-container">
 
-    <!-- Profile Image -->
-    <div class="profile-image">
-      <img src="./img/image 48.png" alt="Profile">
-    </div>
-
-    <!-- User Info -->
-    <div class="profile-content">
-
-      <h2>Museb Khan</h2>
-
-      <p class="designation">
-        Team Lead Designer
-      </p>
-
-      <p class="description">
-        Lead UI/UX Designer with 8 years of experience,
-        currently managing multiple digital products at
-        <strong>PHR</strong> and bringing expertise from global brands like
-        <strong>PepsiCo </strong> and <strong>Netgear</strong> .
-      </p>
-
-      <!-- Action Buttons -->
-      <div class="action-buttons">
-
-        <!-- CALL BUTTON -->
-        <a href="tel:+919584167279" class="contact-btn">
-          <img src="./img/add.svg" alt="">
-          Add Contact
-        </a>
-
-        <!-- EMAIL BUTTON -->
-        <button class="email-btn" onclick="openMailOptions()">
-          <img src="./img/mail.svg" alt="">
-          Email
-        </button>
-
-        <!-- SHARE BUTTON -->
-        <button class="share-btn" onclick="shareContact()">
-          <img src="./img/ios_share.svg" alt="">
-          Share
-        </button>
-
-      </div>
-
-    </div>
-
-    <!-- Contact Details -->
-    <div class="details-section">
-
-      <!-- Phone -->
-      <div class="detail-card">
-
-        <div class="detail-icon">
-          <img src="./img/call.svg" alt="">
+        <!-- Profile Image -->
+        <div class="profile-image">
+            <img src="./img/image 48.png" alt="Profile">
         </div>
 
-        <div class="detail-text">
-          <span>Phone</span>
-          <a href="tel:+919584167279">
-            +91 9584167279
-          </a>
-        </div>
+        <!-- User Info -->
+        <div class="profile-content">
 
-      </div>
+            <h2>Museb Khan</h2>
 
-      <!-- Email -->
-      <div class="detail-card">
+            <p class="designation">
+                Team Lead Designer
+            </p>
 
-        <div class="detail-icon">
-          <img src="./img/mail.svg" alt="">
-        </div>
+            <p class="description">
+                Lead UI/UX Designer with 8 years of experience,
+                currently managing multiple digital products at
+                <strong>PHR</strong> and bringing expertise from global brands like
+                <strong>PepsiCo </strong> and <strong>Netgear</strong> .
+            </p>
 
-        <div class="detail-text">
-          <span>Email</span>
-          <a href="#" onclick="openMailOptions()">
-            design@phrlife.com
-          </a>
-        </div>
+            <!-- Action Buttons -->
+            <div class="action-buttons">
 
-      </div>
+                <!-- CALL BUTTON -->
+                <a href="tel:+919584167279" class="contact-btn">
+                    <img src="./img/add.svg" alt="">
+                    Add Contact
+                </a>
 
-      <!-- Address -->
-      <div class="detail-card">
+                <!-- EMAIL BUTTON -->
+                <button class="email-btn" onclick="openMailOptions()">
+                    <img src="./img/mail.svg" alt="">
+                    Email
+                </button>
 
-        <div class="detail-icon">
-          <img src="./img/location_on.svg" alt="">
-        </div>
+                <!-- SHARE BUTTON -->
+                <button class="share-btn" onclick="shareContact()">
+                    <img src="./img/ios_share.svg" alt="">
+                    Share
+                </button>
 
-        <div class="detail-text">
-          <span>Address</span>
-          <p>Shubhash Nagar, Indore (M.P.)</p>
-        </div>
-
-      </div>
-
-      <!-- Website -->
-      <div class="detail-card">
-
-        <div class="detail-icon">
-          <img src="./img/language.svg" alt="">
-        </div>
-
-        <div class="detail-text-website">
-          <span>Website</span>
-
-          <a href="https://procureinfotech.com/" target="_blank">
-            procureinfotech.com
-          </a>
-
-          <a href="https://phirlife.com/" target="_blank">
-            phirlife.com
-          </a>
-
-          <a href="https://phirshiksha.com/" target="_blank">
-            phirshiksha.com
-          </a>
-          <a href="https://phirschool.com/" target="_blank">
-            phirschool.com
-          </a>
-
-          <a href="https://phirjobs.com/" target="_blank">
-            phirjobs.com
-          </a>
-
-          <a href="https://phirwealth.com/" target="_blank">
-            phirwealth.com
-          </a>
-
-          <a href="https://phirhealth.com/" target="_blank">
-            phrihealth.com
-          </a>
+            </div>
 
         </div>
 
-      </div>
+        <!-- Contact Details -->
+        <div class="details-section">
 
-    </div>
+            <!-- Phone -->
+            <div class="detail-card">
 
-  </div>
+                <div class="detail-icon">
+                    <img src="./img/call.svg" alt="">
+                </div>
 
-  <!-- MAIL SELECT POPUP -->
-  <div class="mail-popup" id="mailPopup">
+                <div class="detail-text">
+                    <span>Phone</span>
+                    <a href="tel:+919584167279">
+                        +91 9584167279
+                    </a>
+                </div>
 
-    <div class="popup-box">
+            </div>
 
-      <h3>Select Email App</h3>
+            <!-- Email -->
+            <div class="detail-card">
 
-      <button onclick="sendMail('gmail')">
-        Gmail
-      </button>
+                <div class="detail-icon">
+                    <img src="./img/mail.svg" alt="">
+                </div>
 
-      <button onclick="sendMail('outlook')">
-        Outlook
-      </button>
+                <div class="detail-text">
+                    <span>Email</span>
+                    <a href="#" onclick="openMailOptions()">
+                        design@phrlife.com
+                    </a>
+                </div>
 
-      <button onclick="sendMail('default')">
-        Default Mail App
-      </button>
+            </div>
 
-      <button class="close-btn" onclick="closePopup()">
-        Cancel
-      </button>
+            <!-- Address -->
+            <div class="detail-card">
+
+                <div class="detail-icon">
+                    <img src="./img/location_on.svg" alt="">
+                </div>
+
+                <div class="detail-text">
+                    <span>Address</span>
+                    <p>Shubhash Nagar, Indore (M.P.)</p>
+                </div>
+
+            </div>
+
+            <!-- Website -->
+            <div class="detail-card">
+
+                <div class="detail-icon">
+                    <img src="./img/language.svg" alt="">
+                </div>
+
+                <div class="detail-text-website">
+                    <span>Website</span>
+
+                    <a href="https://procureinfotech.com/" target="_blank">
+                        procureinfotech.com
+                    </a>
+
+                    <a href="https://phirlife.com/" target="_blank">
+                        phirlife.com
+                    </a>
+
+                    <a href="https://phirshiksha.com/" target="_blank">
+                        phirshiksha.com
+                    </a>
+                    <a href="https://phirschool.com/" target="_blank">
+                        phirschool.com
+                    </a>
+
+                    <a href="https://phirjobs.com/" target="_blank">
+                        phirjobs.com
+                    </a>
+
+                    <a href="https://phirwealth.com/" target="_blank">
+                        phirwealth.com
+                    </a>
+
+                    <a href="https://phirhealth.com/" target="_blank">
+                        phrihealth.com
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
-  </div>
+    <!-- MAIL SELECT POPUP -->
+    <div class="mail-popup" id="mailPopup">
 
-  <script src="script.js"></script>
+        <div class="popup-box">
+
+            <h3>Select Email App</h3>
+
+            <button onclick="sendMail('gmail')">
+                Gmail
+            </button>
+
+            <button onclick="sendMail('outlook')">
+                Outlook
+            </button>
+
+            <button onclick="sendMail('default')">
+                Default Mail App
+            </button>
+
+            <button class="close-btn" onclick="closePopup()">
+                Cancel
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>

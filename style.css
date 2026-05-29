@@ -71,7 +71,8 @@ body {
 .action-buttons {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 5px;
+   
 }
 
 .action-buttons a,
@@ -84,10 +85,11 @@ body {
     border-radius: 50px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
+    
 }
 
 .contact-btn {
@@ -95,16 +97,13 @@ body {
     color: #fff;
 }
 
-.email-btn {
+.email-btn,
+.share-btn  {
     background: #f2f4ff;
     color: #1d3ea8;
 }
 
-.share-btn {
-    width: 46px;
-    justify-content: center;
-    background: #f2f4ff;
-}
+
 
 .action-buttons img {
     width: 24px;
